@@ -1,0 +1,9 @@
+# Ignorar arquivos Excel
+*.xlsx
+
+# Ignorar arquivos JSON
+*.json
+
+
+# Ignorar arquivos YAMLS
+*.yaml
