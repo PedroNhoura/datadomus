@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  db:
+    container_name: fogo_cruzado_bd
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: shado
+      MYSQL_DATABASE: fogocruzado
+      MYSQL_USER: pedro
+      MYSQL_PASSWORD: shado123
+    ports:
+      - "3307:3306"
+    volumes:
+      - /home/pedro/Geral/Estudos/Projeto_Plataforma_DataScience/fogo_cruzado/banco_de_dados_local:/var/lib/mysql
