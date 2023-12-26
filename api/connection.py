@@ -49,10 +49,3 @@ class FogoCruzadoAPI:
         response = requests.get(endpoint, headers=headers)
         return response
 
-# # Uso
-# email = "crixusalter@gmail.com"
-# password = "DDpedro@123"
-# api = FogoCruzadoAPI(email, password)
-
-# # Exemplo de como fazer uma requisição
-# # response = api.request_with_token("https://api-service.fogocruzado.org.br/algum-endpoint")
