@@ -50,9 +50,9 @@ if __name__ == "__main__":
     project_id = 'encoded-density-405819'
     dataset_id = 'api_fogo_cruzado'
     table_id = 'ocorrencias'
-    credentials_path = '/home/pedro/Geral/Estudos/Projeto_Plataforma_DataScience/fogo_cruzado/arquivos_complementares/encoded-density-405819-53122b1023b6.json'
+    credentials_path = '/home/pedro/Geral/Estudos/Projeto_Plataforma_DataScience/fogo_cruzado/arquivos_complementares/encoded-density************.json'
 
-    fogo_cruzado_data = FogoCruzadoData("crixusalter@gmail.com", "DDpedro@123")
+    fogo_cruzado_data = FogoCruzadoData("cr***alt**@gmail.com", "**********")
     
     # Defina as datas desejadas
     initial_date = "2023-01-25"
