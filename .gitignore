@@ -11,3 +11,6 @@
 
 # Ignorar arquivos pyc
 *.pyc
+
+# Ignorar arquivos pyc
+*.html

@@ -5,12 +5,12 @@ from shapely.geometry import Point
 import folium
 from folium.plugins import MarkerCluster
 
-# Configurar suas credenciais do Google Cloud
-# Substitua 'seu-arquivo-de-credenciais.json' pelo caminho do seu arquivo de credenciais.
-# Consulte a documentação do Google Cloud para obter informações sobre como criar essas credenciais.
+# Configurar  credenciais do Google Cloud
+
+
 client = bigquery.Client.from_service_account_json('/home/pedro/Geral/Estudos/Projeto_Plataforma_DataScience/fogo_cruzado/arquivos_complementares/encoded-density-405819-53122b1023b6.json')
 
-# Query para o BigQuery
+# Query BigQuery
 query = """
 SELECT
   ocorrencia_id,
